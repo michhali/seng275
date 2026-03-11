@@ -16,7 +16,7 @@ The lab included two exercises: implementing a **Rectangle** class and solving t
 - Git / GitLab
 
 ## Project Structure
-lab02
+lab02/
 ├── Rectangle.java
 ├── RectangleTest.java
 ├── AddMyAlphas.java
