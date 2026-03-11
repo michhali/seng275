@@ -1,4 +1,4 @@
-# SENG 275 – Lab 02
+# Lab 02
 
 ## Overview
 This lab introduces **Test-Driven Development (TDD)** using Java and JUnit in IntelliJ IDEA. The goal was to practice writing tests before implementation and following the TDD cycle:
