@@ -15,6 +15,14 @@ The lab included two exercises: implementing a **Rectangle** class and solving t
 - IntelliJ IDEA
 - Git / GitLab
 
+## Project Structure
+
+- Rectangle.java
+- RectangleTest.java
+- AddMyAlphas.java
+- AddMyAlphasTest.java
+- README.md
+- 
 ## Implementation
 - **Rectangle**: Implemented a rectangle object and verified its behavior using unit tests.
 - **AddMyAlphas**: Implemented logic that converts letters to alphabetical values and computes their sum.
