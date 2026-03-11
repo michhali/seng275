@@ -1,30 +1,36 @@
 # SENG 275 – Lab 02
-## Test-Driven Development in Java
 
 ## Overview
-This lab introduces **Test-Driven Development (TDD)** using Java and JUnit. The goal of the lab is to gain hands-on experience writing tests before implementing functionality. The development process follows the classic TDD cycle:
+This lab introduces **Test-Driven Development (TDD)** using Java and JUnit in IntelliJ IDEA. The goal was to practice writing tests before implementation and following the TDD cycle:
 
 1. Write a failing test
-2. Implement the minimum code required to pass the test
-3. Refactor while keeping all tests passing
+2. Implement the minimum code needed to pass
+3. Refactor while keeping tests passing
 
-Two programming tasks were completed in this lab:
+The lab included two exercises: implementing a **Rectangle** class and solving the **AddMyAlphas** problem.
 
-- Implementing a **Rectangle class**
-- Solving the **AddMyAlphas problem**
-
-Both tasks were implemented using a test-driven approach.
-
----
-
-## Technologies Used
-
+## Technologies
 - Java
 - JUnit
 - IntelliJ IDEA
-- Git
-- GitLab
-
----
+- Git / GitLab
 
 ## Project Structure
+lab02
+├── Rectangle.java
+├── RectangleTest.java
+├── AddMyAlphas.java
+├── AddMyAlphasTest.java
+└── README.md
+
+## Implementation
+- **Rectangle**: Implemented a rectangle object and verified its behavior using unit tests.
+- **AddMyAlphas**: Implemented logic that converts letters to alphabetical values and computes their sum.
+
+## Running Tests
+Tests can be run in IntelliJ using the built-in JUnit runner. All tests should pass once the implementation is complete.
+
+## What I Learned
+- How to apply Test-Driven Development
+- How to write effective unit tests
+- How tests help guide implementation and design
