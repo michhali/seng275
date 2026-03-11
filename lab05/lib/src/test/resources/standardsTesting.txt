@@ -1,0 +1,39 @@
+Which standards tool did you use?
+
+I used the W3C Markup Validation Service
+to check the page against web standards and find invalid HTML.
+
+
+Name any one test that passed, and describe why that test is important, in your own words.
+What would be the problem if the test had failed?
+
+One test that passed was “uvicHomePageLoads()”.
+This test is important because it checks that the website
+is accessible and that the home page loads properly in a real browser.
+ If the home page doesn’t load, then nothing else on the website is
+ relevant because users won’t be able to get to any of the pages.
+
+If the test had failed, it could mean that the website is down, blocked,
+or redirecting incorrectly or that the home page is taking too long to load.
+This would mean that users wouldn’t be able to get to the website at all, and
+it would also mean that features that rely on the home page wouldn’t work.
+
+
+
+Name any one test that failed (yellow or red) and explain why the failed test suggest
+there's a problem with the website.  Who is it a problem for?  What kinds of obstacles
+could this issue present?
+
+A failing test might mean the absence of HTML validation errors.
+The errors include those highlighted in red by the W3C validator.
+The errors include those where there are unclosed tags, there is duplication of IDs, and
+there is improper use of attributes. This is a problem since it might cause the webpage
+ to render differently in different browsers. It might also cause screen readers not to
+ work properly since they rely on the structure of the webpage.
+
+Who is affected by this problem?
+The problem affects everybody.
+
+What kinds of obstacles might this problem present?
+The problem might cause a broken layout, improper presentation of the layout,
+ improper functioning of buttons, and improper functioning of screen readers.
