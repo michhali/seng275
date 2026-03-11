@@ -1,4 +1,4 @@
-# SENG 275 – Lab 03
+# Lab 03
 
 ## Overview
 This lab focuses on **Domain Testing** and **Specification Testing** using Java and JUnit. The goal is to understand how to design effective tests by analyzing the input domain of a function and identifying important boundary conditions.
