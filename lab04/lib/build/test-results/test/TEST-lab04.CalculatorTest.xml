@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab04.CalculatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-02-11T22:46:24" hostname="w134-87-046-170.wireless.uvic.ca" time="0.01">
+  <properties/>
+  <testcase name="testAGreaterOrEqualTwo()" classname="lab04.CalculatorTest" time="0.009"/>
+  <testcase name="testALessThanTwo()" classname="lab04.CalculatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

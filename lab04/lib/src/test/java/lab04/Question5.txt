@@ -1,0 +1,15 @@
+
+Question 5:
+
+In order to get 100% statement coverage, it is enough to use one
+test case with one score, such as the list [5.0], which will execute
+the body of the loop, update both max and min, increment the counter,
+and execute the branch with the print statements. To get 100%
+branch coverage, several test cases must be used to ensure that
+all branch statements are executed with both true and false conditions.
+An empty list must be used to test the false branch of the loop and the true
+branch of the statement numberOfScores < 1. Additional test cases with different
+values, such as [5.0, 3.0] and [5.0, 7.0], must be used to test the true and
+false results of the max and min comparisons. This shows that branch coverage
+is a stricter testing criterion than statement coverage, as it requires a
+deeper examination of the decision statements.
