@@ -1,0 +1,15 @@
+Title:messageIsValid accepts 7-character messages without a hyphen
+Submitter: Mihail Maravelias
+email address: mihailm@uvic.ca
+
+Summary of bug:The method messageIsValid accepts license plate messages that are 7 characters long without containing a hyphen, which violates the test.
+
+Expected behaviour:According to the specification, messages without a hyphen must contain only 2–6 letters or letters and numbers. A message with seven characters and no hyphen should be disregarded.
+
+Actual behaviour:
+When a seven-character message (like "ABCDEFG") is sent without a hyphen, the method incorrectly treats it as valid and returns true.
+Steps to Reproduce:
+Call messageIsValid("ABCDEFG", false)
+Observe that the method returns true
+Severity:
+Medium. The bug causes invalid personalized license plate messages to be accepted, violating the documented rules.
