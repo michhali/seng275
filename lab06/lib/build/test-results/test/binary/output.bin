@@ -1,0 +1,16 @@
+?############ Logging method invocation #1 on mock/spy ########
+issuedInvoices.all();
+Y   invoked: -> at lab06.InvoiceFilterTest.allLowValueInvoices(InvoiceFilterTest.java:39)
+-   has returned: "[]" (java.util.LinkedList)
+
+?############ Logging method invocation #2 on mock/spy ########
+Y   stubbed: -> at lab06.InvoiceFilterTest.allLowValueInvoices(InvoiceFilterTest.java:39)
+issuedInvoices.all();
+N   invoked: -> at lab06.InvoiceFilter.lowValueInvoices(InvoiceFilter.java:42)
+l   has returned: "[lab06.Invoice@4d666b41, lab06.Invoice@6594402a]" (java.util.ImmutableCollections$List12)
+
+?############ Logging method invocation #3 on mock/spy ########
+issuedInvoices.all();
+Y   invoked: -> at lab06.InvoiceFilterTest.allLowValueInvoices(InvoiceFilterTest.java:41)
+   has returned: "null"
+

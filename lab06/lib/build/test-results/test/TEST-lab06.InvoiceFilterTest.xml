@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab06.InvoiceFilterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-03-04T16:53:22" hostname="Mihails-MacBook-Air.local" time="0.146">
+  <properties/>
+  <testcase name="allHighValueInvoices()" classname="lab06.InvoiceFilterTest" time="0.139"/>
+  <testcase name="someLowValueInvoices()" classname="lab06.InvoiceFilterTest" time="0.002"/>
+  <testcase name="allLowValueInvoices()" classname="lab06.InvoiceFilterTest" time="0.004"/>
+  <system-out><![CDATA[############ Logging method invocation #1 on mock/spy ########
+issuedInvoices.all();
+   invoked: -> at lab06.InvoiceFilterTest.allLowValueInvoices(InvoiceFilterTest.java:39)
+   has returned: "[]" (java.util.LinkedList)
+
+############ Logging method invocation #2 on mock/spy ########
+   stubbed: -> at lab06.InvoiceFilterTest.allLowValueInvoices(InvoiceFilterTest.java:39)
+issuedInvoices.all();
+   invoked: -> at lab06.InvoiceFilter.lowValueInvoices(InvoiceFilter.java:42)
+   has returned: "[lab06.Invoice@4d666b41, lab06.Invoice@6594402a]" (java.util.ImmutableCollections$List12)
+
+############ Logging method invocation #3 on mock/spy ########
+issuedInvoices.all();
+   invoked: -> at lab06.InvoiceFilterTest.allLowValueInvoices(InvoiceFilterTest.java:41)
+   has returned: "null"
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

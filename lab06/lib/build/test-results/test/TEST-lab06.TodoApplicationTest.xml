@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab06.TodoApplicationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-03-04T16:53:23" hostname="Mihails-MacBook-Air.local" time="0.016">
+  <properties/>
+  <testcase name="completeAllWithThreeTodos()" classname="lab06.TodoApplicationTest" time="0.011"/>
+  <testcase name="addTodo()" classname="lab06.TodoApplicationTest" time="0.0"/>
+  <testcase name="completeAllWithNoTodos()" classname="lab06.TodoApplicationTest" time="0.0"/>
+  <testcase name="retrieveTodos()" classname="lab06.TodoApplicationTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
